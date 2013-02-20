@@ -1,0 +1,352 @@
+<!doctype html public "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Download  - Free Open Source Codes - CodeForge.com </title>
+<META NAME="description" CONTENT="Download  Search and download  open source project / source codes from CodeForge.com ">
+<META NAME="keywords" CONTENT="Download , source codes, opensource, c++, python, java, perl, visual C++, c#, visual basic, javascript, c language, programming, download ">
+<link href="/style.css" rel="stylesheet" type="text/css">
+<!--[if IE]><script src="/html5.js"></script><![endif]-->
+<script type="text/javascript" src="/misc.js"></script>
+</head>
+
+<body>
+
+
+
+<div id="wrapper">
+  <header>
+    <div id="topmenu">
+       <div id="topmenuleft">
+         <div id="topMenu" class="ddsmoothmenu">
+		   <ul id="menu-%e9%a1%b6%e9%83%a8%e8%8f%9c%e5%8d%95" class="menu">
+		     <li id="menu-item-2288" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-2288">
+		      <a href="/">Home</a></li>
+             <li id="menu-item-2289" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2289">
+		      <a href="mailto:support@codeforge.com">Contact us</a></li>
+           </ul>
+		 </div>		 
+       </div> <!-- topmenuleft -->
+	   <div id="topmenuright">
+		 <ul>          
+							
+				<li class='userlink'><a href="/myaccount">anvi</a></li>
+				<li class='topmenulink'><a href="/logout">Logout</a></li>
+				
+				
+
+            <li class="rssnav"><a href="/">RSS</a></li>
+            <li>Language/语言:</li>
+			<li><a href="http://www.codeforge.com/" onclick="window.location.href = window.location.href.replace(/codeforge.cn/i, 'codeforge.com');return false;"><img border=0 src="/images/country_icons_large/us.png" width=28 style='margin-top:-5px;'></a></li>
+			<li><a href="http://www.codeforge.com" onclick="window.location.href = window.location.href.replace(/codeforge.com/i, 'codeforge.cn');return false;"><img border=0 src="/images/country_icons_large/cn.png" width=28 style='margin-top:-5px;'></a> </li>
+          </ul>
+        </div> <!-- topmenuright-->
+	 </div> <!-- topmenu -->
+
+     <div id="logowrap">
+	   <div id="logo"><a style="text-decoration:none" href="http://www.codeforge.com"> <!--<img src="" alt="PCFans.com" />-->
+	      <H1 style="font-size:30px;;margin-bottom:10px;">CodeForge.com</H1></a>
+		  <p>Free Open Source Codes Forge and Sharing </p>
+	   </div> <!-- logohead -->
+	   <div id="logohead">
+          <div id="headad"></div>
+          <div id="twfb">
+		     <ul>  
+			 <li>
+			    <form method="POST" id="footersearch" name="footersearch" action="/">
+					<input type="text" name="q" value="" onblur="if(this.value=='') this.value='Please input keyword';" onfocus="if(this.value=='Please input keyword') this.value='';" id="s" />
+					<input type="submit" value=" " id="searchsubmit" />
+				</form>    
+			 </li>
+			 </ul>
+		  </div>
+       </div> <!-- logohead -->
+	 </div> <!-- logowrap -->
+  </header>
+
+<script>
+//set the default value of query input box
+if (document.footersearch.q.value == '') {
+	document.footersearch.q.value= 'Please input keyword';
+}
+</script>
+
+
+ <section>
+  <!--
+  <div id="headgal">
+    <div id="featured" style="padding-left: 14px !important;">
+    </div>
+  </div>
+  -->
+  <div id="content">	 
+    <!--<div id="indextop">	 </div>-->
+    <div id="homepost">
+
+
+
+		<div style='width:800px;margin-left:auto;margin-right:auto;' align=center>		
+			<H2>  (19.05 kB) Sourcecodes download </H2>
+		</div>
+		<br>
+		<div style='width:800px;margin-left:auto;margin-right:auto;' align=center>		
+			<a href="/article/28423"><span align=center style="font-size: 16px;color: green;font-weight:bold;">a group of video watermarking Matlab source code in Matlab can be directly run....</span> description link</a>
+		</div>
+		<br>
+
+		<div style='width:800px;margin-left:auto;margin-right:auto;' align=left>	
+
+
+			<div style='width:800px;margin-left:auto;margin-right:auto;display:none;'  id='div_dl' align=left>	
+				<br><br>
+				<form method='POST' action='/dl'>
+					<input type=hidden name="f" value='12069ff11c0e.zip'>
+					<img id="captcha" src="/libs/securimage/securimage_show.php" alt="CAPTCHA Image" /> 
+					<a href="#" onclick="document.getElementById('captcha').src = '/libs/securimage/securimage_show.php?' + Math.random(); return false">Reload image</a>
+					<br>
+					Please input codes above: <input type="text" name="captcha_code" size="10" maxlength="6" /> <br>
+					<input type=submit value=' Download now! '>
+				</form>
+			</div>
+			<span style='font-size:12px;' id="waitinfo"></span>
+
+			<script type="text/javascript"> 
+				var secs = 20;
+				var wait = secs * 1000;
+				
+				var container = document.getElementById('waitinfo');
+				var div_dl = document.getElementById('div_dl');
+				
+				if (container != null) {
+					container.innerHTML = "Please wait " + secs + " senconds before downloading...";
+					
+					for(i = 1; i <= secs; i++) {
+						window.setTimeout("update(" + i + ")", i * 1000);
+					}
+					
+					window.setTimeout("timer()", wait);
+					function update(num, value) {
+						if(num == (wait/1000)) {
+							container.innerHTML = "";
+						} else {
+							printnr = (wait / 1000) - num;
+							container.innerHTML = "Please wait " + printnr + " senconds before downloading...";
+						}
+					}
+					function timer() {
+						container.innerHTML = "";
+						div_dl.style.display="";
+					}
+			}
+			</script> 
+
+
+		</div>
+
+		<br><br>
+
+		<div style='width:800px;margin-left:auto;margin-right:auto;' align=left>
+
+	
+
+sponser links: <br>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5238775468331658";
+/* cf_en_index */
+google_ad_slot = "6115717927";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+	
+	
+
+
+<br>
+
+<table width=100%>
+<tr><td>
+
+					
+
+sponser links:<br>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5238775468331658";
+/* cf_300x250 */
+google_ad_slot = "2742975525";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+	
+	
+</td><td>
+					
+
+sponser links:<br>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5238775468331658";
+/* cf_300x250 */
+google_ad_slot = "2742975525";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+	
+	
+</td></tr>
+</table>
+		<div>
+
+
+<br>
+
+
+		<div style='width:800px;margin-left:auto;margin-right:auto;' align=left>	
+
+			<div id="sidebartitlewrapper"><h4>File List</h4></div>
+			<pre>cdma_embed.m	1674	05-31-02|18:06
+cdma_recover.m	1731	05-31-02|18:06
+cor_embed.m	2874	05-31-02|18:06
+cor_embed_mod.m	3248	05-31-02|18:06
+cor_recover.m	2320	05-31-02|18:06
+cor_recover_mod.m	2597	05-31-02|18:06
+dct1_embed.m	3503	05-31-02|18:06
+dct1_recover.m	1716	05-31-02|18:06
+dct2_embed.m	3287	05-31-02|18:06
+dct2_embed_mod.m	4133	05-31-02|18:06
+dct2_recover.m	2687	05-31-02|18:06
+dct2_recover_mod.m	3165	05-31-02|18:06
+dwt_embed.m	1819	05-31-02|18:06
+dwt_recover.m	1716	05-31-02|18:06
+lsb_embed.m	1510	05-31-02|18:06
+lsb_recover.m	926	05-31-02|18:06
+pn_period.m	1034	05-31-02|18:06
+pn_test.m	579	05-31-02|18:06
+psnr.m	727	05-31-02|18:06</pre>
+		</div>
+	
+
+
+
+	</div> <!-- homepost -->
+</div> <!-- content -->
+
+</section>
+
+<br>
+
+
+<br>
+
+
+
+</div><!-- #wrapper -->
+
+
+
+
+
+<footer>
+
+  <div id="footer1">
+    <div id="footerwrapper1">
+	  <div id="fsidebar1"></div>
+      <div id="fsidebar2"></div> 
+      <div id="fsidebar3"></div>   
+      <div id="fsidebar4">
+	    <div class="widget">
+          <ul>
+  		   <h3>
+           <p><a href="mailto:support@codeforge.com">Contact us</a> | <a href="mailto:support@codeforge.com">Your Ads here</a></p>
+		   </h3>
+		  </ul>
+        </div>
+      </div>
+	  <div style="clear: both;"> </div> 
+     </div> <!-- fsidebar4 -->
+  </div> <!-- footer1 -->
+
+
+
+
+  <div id="footer2">
+    <div id="footerwrapper2"> 
+      <div id="fotnav">
+		 	<ul id="fnav">  
+			<center>  </center>	
+			</ul> 
+       </div> <!-- fotnav -->
+	   <div id="fotbot">
+          <div class="fotlogoleft"> 
+		    <div class="fotcopy">   
+              <div id="copyright">			     
+			    <p><a href="">CodeForge.com</a>  is powered by <a href="http://www.codeforge.com/">CodeForge Dev Team</a>  &nbsp; Elapsed:183.372ms</p>
+              </div>
+			</div> 
+
+          </div> <!-- fotbot -->
+		  <div class="fotlogoright">
+		    <ul id="skyline"> 
+               <li id="pad1"> </li>
+               <li>
+					<form method="POST" id="footersearch" name="footersearch2" action="/">
+					<input type="text" name="q" value="" onblur="if(this.value=='') this.value='Please input keyword';" onfocus="if(this.value=='Please input keyword') this.value='';" id="s" />
+					<input type="submit" value=" " id="searchsubmit" />
+					</form>              
+               </li> 
+		    </ul>
+          </div> <!-- fotlogoright -->
+		  <div id="cb">
+		  </div>
+       </div> <!-- fotbot -->
+
+	</div> <!-- footerwrapper2-->
+  </div> <!-- footer2 -->
+
+
+
+</footer>
+
+
+<script>
+//set the default value of query input box
+if (document.footersearch2.q.value == '') {
+	document.footersearch2.q.value= 'Please input keyword';
+}
+</script>
+
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=7867179; 
+var sc_invisible=1; 
+var sc_security="e780d838"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="tumblr hit
+counter" href="http://statcounter.com/tumblr/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/7867179/0/e780d838/1/"
+alt="tumblr hit counter"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+</body>
+</html>
+
